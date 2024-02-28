@@ -2,7 +2,9 @@ import { Plan } from "@/types/Plan";
 
 export const plans: Plan[] = [
   {
-    title: "Plan Starter - Web Básica",
+    title: "Plan Starter",
+    description:
+      "Ideal para emprendedores que buscan un sitio web para establecer su presencia en línea de manera rápida y a un precio accesible.",
     price: "S/250",
     features: [
       "Hasta 4 secciones",
@@ -18,8 +20,10 @@ export const plans: Plan[] = [
     ],
   },
   {
-    title: "Plan Emprende - Web Profesional",
-    price: "S/500",
+    title: "Plan Emprende",
+    description:
+      "Perfecto para emprendedores que quieren gestionar contenido dinamico en su web.",
+    price: "S/600",
     features: [
       "Hasta 7 secciones",
       "2 secciones administrables para generar y editar contenidos",
@@ -35,7 +39,9 @@ export const plans: Plan[] = [
     ],
   },
   {
-    title: "Plan Avanzado - Web Premium",
+    title: "Plan Avanzado",
+    description:
+      " Ideal para emprendedores que buscan destacar en el mundo digital y vender productos en su web.",
     price: "S/1000",
     features: [
       "Hasta 10 secciones",
@@ -57,7 +63,9 @@ export const plans: Plan[] = [
     ],
   },
   {
-    title: "Plan Élite - Web Exclusiva",
+    title: "Plan Élite",
+    description:
+      " Ideal para empresas que buscan una presencia en línea excepcional y funcionalidades avanzadas para la fidelizacion de sus clientes.",
     price: "S/1800",
     features: [
       "Cuentas para sus usuarios",

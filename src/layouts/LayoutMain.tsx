@@ -1,6 +1,5 @@
 import Footer from "@/components/Footer";
 import { ModeToggle } from "@/components/ModeToggle";
-import WhatsApp from "@/components/WhatsApp";
 
 import { Outlet } from "react-router-dom";
 import { Link } from "react-scroll";
@@ -8,11 +7,11 @@ const LayoutMain = () => {
   return (
     <div>
       <header className="bg-white dark:bg-background px-10 sticky top-0 w-full border-b-2 z-50">
-        <nav className="flex h-24 text-lg justify-between items-center">
-          <p className="text-4xl text- sm:text-2xl xl:text-4xl font-bold hover:text-primary transition-all duration-300">
+        <nav className="flex h-32 md:h-24 text-lg flex-col md:justify-between md:flex-row items-center justify-evenly  ">
+          <p className="text-4xl  font-bold hover:text-primary transition-all duration-300">
             WebCrafters
           </p>
-          <ul className="flex gap-12 items-center">
+          <ul className="w-80 md:w-auto flex gap-12 items-center overflow-auto">
             <li className=" font-bold border-b-4 border-transparent hover:text-primary  hover:border-primary transition-all duration-300">
               <Link
                 offset={-130}
@@ -71,7 +70,6 @@ const LayoutMain = () => {
         <Outlet />
       </main>
       <Footer />
-      <WhatsApp />
     </div>
   );
 };
