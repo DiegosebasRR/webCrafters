@@ -3,7 +3,7 @@ import { firstRow } from "@/data/technologies";
 
 const Technologies = () => {
   return (
-    <div className="content w-4/5 h-52 m-auto  ">
+    <div className="content w-4/5 2xl:w-1/2 h-52 m-auto  ">
       <TitleSection title="Tecnologias" />
       <div className="benefits mt-6">
         <div className="basic-marquee basic-marquee-1 mt-10 ">
