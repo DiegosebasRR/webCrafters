@@ -7,7 +7,7 @@ const LayoutMain = () => {
   return (
     <div>
       <header className="bg-white dark:bg-background px-10 sticky top-0 w-full border-b-2 z-50">
-        <nav className="flex h-32 md:h-24 text-lg flex-col md:justify-between md:flex-row items-center justify-evenly  ">
+        <nav className="flex h-32 lg:h-24 text-lg flex-col lg:justify-between lg:flex-row items-center justify-evenly  ">
           <p className="text-4xl  font-bold hover:text-primary transition-all duration-300">
             WebCrafters
           </p>
@@ -60,7 +60,7 @@ const LayoutMain = () => {
                 Planes
               </Link>
             </li>
-            <li>
+            <li className="hidden md:block">
               <ModeToggle />
             </li>
           </ul>
