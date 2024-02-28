@@ -66,7 +66,7 @@ const LayoutMain = () => {
           </ul>
         </nav>
       </header>
-      <main>
+      <main className="bg-background pb-10">
         <Outlet />
       </main>
       <Footer />
