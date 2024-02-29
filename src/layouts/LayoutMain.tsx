@@ -7,6 +7,18 @@ const LayoutMain = () => {
   return (
     <div>
       <header className="bg-white dark:bg-background px-10 sticky top-0 w-full border-b-2 z-50">
+        <Link
+          offset={-130}
+          activeClass="text-primary"
+          spy={true}
+          smooth={true}
+          duration={500}
+          to="plan"
+        >
+          <div className="bg-red-500 h-14 text-center text-white text-xl flex items-center justify-center font-bold">
+            <p>60% de descuento en el Plan Starter hasta el 10/03</p>
+          </div>
+        </Link>
         <nav className="flex h-32 lg:h-24 text-lg flex-col lg:justify-between lg:flex-row items-center justify-evenly  ">
           <p className="text-4xl  font-bold hover:text-primary transition-all duration-300">
             WebCrafters

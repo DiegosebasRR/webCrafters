@@ -4,11 +4,28 @@ import { FC } from "react";
 const Plan: FC<PlanProps> = ({ title, price, features, description }) => {
   return (
     <div className="bg-white rounded-lg h-fit overflow-hidden shadow-lg transition-transform transform hover:scale-105">
-      <div className="p-1 bg-green-200"></div>
+      <div className="p-1 bg-green-400"></div>
       <div className="p-8">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">{title}</h2>
         <p className="text-gray-600 text-sm mb-6">{description}</p>
-        <p className="text-4xl font-bold text-gray-800 mb-6">{price}</p>
+        {title == "Plan Starter" ? (
+          <div className="my-2 bg-red-500 font-bold text-white text-xl text-center rounded-3xl">
+            60% de descuento
+          </div>
+        ) : (
+          ""
+        )}
+        {title == "Plan Starter" ? (
+          <div>
+            <p className="text-xl font-bold text-gray-800 line-through">
+              {price}
+            </p>
+            <p className="text-4xl font-bold text-gray-800 mb-6">S/100</p>
+          </div>
+        ) : (
+          <p className="text-4xl font-bold text-gray-800 mb-6">{price}</p>
+        )}
+
         <ul className="text-base text-gray-600 mb-6">
           {features.map((feature, key) => (
             <li key={key} className="mb-2 flex items-center">
