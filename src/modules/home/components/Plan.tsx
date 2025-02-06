@@ -1,5 +1,6 @@
 import { Plan as PlanProps } from "@/types/Plan";
 import { FC } from "react";
+import { handleRedirectToWhatsApp } from "./handleRedirectToWhatsApp";
 
 const Plan: FC<PlanProps> = ({ title, price, features, description }) => {
   return (
@@ -49,11 +50,16 @@ const Plan: FC<PlanProps> = ({ title, price, features, description }) => {
         </ul>
       </div>
       <div className="p-4">
-        <a href=" https://w.app/WebCraftersPlan" target="_blank">
-          <button className="w-full bg-green-500 text-white rounded-full px-4 py-2 hover:bg-green-700 focus:outline-none focus:shadow-outline-green active:bg-green-800">
-            Select Plan
-          </button>
-        </a>
+        <button
+          onClick={() =>
+            handleRedirectToWhatsApp({
+              text: `¡Hola! Estoy interesado en el plan ${title}.`,
+            })
+          }
+          className="w-full bg-green-500 text-white rounded-full px-4 py-2 hover:bg-green-700 focus:outline-none focus:shadow-outline-green active:bg-green-800"
+        >
+          Select Plan
+        </button>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import LayoutMain from "@/layouts/LayoutMain";
 import Home from "@/modules/home/pages/Home";
+import SistemaRopa from "@/modules/SistemaRopa/page/SistemaRopa";
 
 const appRouter = [
   {
@@ -9,6 +10,10 @@ const appRouter = [
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/SistemaRopa",
+        element: <SistemaRopa />,
       },
     ],
   },
