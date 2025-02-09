@@ -12,16 +12,9 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { ImageCarousel } from "./ImageCarousel";
 
 export function SystemShowcaseModal() {
   const [isOpen, setIsOpen] = React.useState(false);
-
-  const images = [
-    "/placeholder.svg?height=400&width=600",
-    "/placeholder.svg?height=400&width=600",
-    "/placeholder.svg?height=400&width=600",
-  ];
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
@@ -38,7 +31,6 @@ export function SystemShowcaseModal() {
           </DialogDescription>
         </DialogHeader>
         <div className="grid gap-6">
-          <ImageCarousel images={images} />
           <div className="space-y-4">
             <h3 className="text-2xl font-light">Funcionalidades Principales</h3>
             <ul className="list-disc list-inside space-y-2">
