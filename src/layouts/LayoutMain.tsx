@@ -33,7 +33,7 @@ const LayoutMain = () => {
       <header className="bg-white dark:bg-background px-10 sticky top-0 w-full border-b-2 z-50">
         <nav className="flex h-32 lg:h-24 text-lg flex-col lg:justify-between lg:flex-row items-center justify-evenly">
           <p className="text-4xl font-bold hover:text-primary transition-all duration-300">
-            WebCrafters
+            Desarrollando Conexiones
           </p>
           <ul className="w-80 md:w-auto flex gap-12 items-center overflow-auto">
             <li className="font-bold border-b-4 border-transparent hover:text-primary hover:border-primary transition-all duration-300">

@@ -21,7 +21,7 @@ export default function SistemaRopa() {
 
   const heroImages = [
     {
-      src: "/public/banner.png",
+      src: "/banner.png",
       title: "Sistema Innovador",
     },
     {
@@ -40,22 +40,22 @@ export default function SistemaRopa() {
       shortDescription: "Interfaz elegante y fácil de usar",
       details: [
         {
-          image: "/public/home/home_1.png",
+          image: "/home/home_1.png",
           description:
             "Nuestro diseño principal ofrece una experiencia de usuario intuitiva y atractiva. Con una disposición clara y una navegación sencilla, los clientes pueden explorar su tienda con facilidad.",
         },
         {
-          image: "/public/home/home_2.png",
+          image: "/home/home_2.png",
           description:
             "Destaca tus productos más atractivos con nuestra sección de Ofertas Especiales. Administra fácilmente los productos, precios y promociones desde el panel de control del administrador, asegurando que siempre ofrezcas lo mejor a tus clientes.",
         },
         {
-          image: "/public/home/home_3.png",
+          image: "/home/home_3.png",
           description:
             "Facilita la experiencia de compra organizando tus productos en categorías y subcategoriás intuitivas. Desde ropa de hombre, mujer, niños y más, permite que tus clientes encuentren lo que buscan de manera rápida y sencilla. Todas las categorías y subcategoriás pueden ser personalizadas y administradas desde el panel de control",
         },
         {
-          image: "/public/home/home_4.png",
+          image: "/home/home_4.png",
           description:
             "Destaca los últimos productos añadidos a tu catálogo para captar la atención de tus clientes. Esta sección muestra automáticamente las novedades más recientes, permitiendo que los usuarios descubran lo más actual de tu tienda.",
         },
@@ -67,17 +67,17 @@ export default function SistemaRopa() {
         "Automatiza la atención al cliente con respuestas rápidas y eficientes",
       details: [
         {
-          image: "/public/chatbot/faq.png",
+          image: "/chatbot/faq.png",
           description:
             "📌 **Preguntas Frecuentes (FAQ)** - Resuelve dudas comunes sobre envíos, devoluciones y pagos al instante. El chatbot ofrece respuestas rápidas y precisas sin necesidad de contactar con soporte.",
         },
         {
-          image: "/public/chatbot/order.png",
+          image: "/chatbot/order.png",
           description:
             "📦 **Consulta de Pedidos** - Introduce tu número de pedido y obtén actualizaciones en tiempo real sobre su estado, desde el procesamiento hasta la entrega.",
         },
         {
-          image: "/public/chatbot/recommendation.png",
+          image: "/chatbot/recommendation.png",
           description:
             "🎯 **Recomendaciones de Productos** - Recibe sugerencias personalizadas basadas en tus intereses y compras anteriores, facilitando una experiencia de compra más eficiente.",
         },
@@ -88,12 +88,12 @@ export default function SistemaRopa() {
       shortDescription: "Gestión completa de información de productos",
       details: [
         {
-          image: "/public/product/product_1.png",
+          image: "/product/product_1.png",
           description:
             "Ofrece una experiencia completa y detallada para tus clientes. En esta sección, los usuarios pueden explorar imágenes del producto, leer su descripción, seleccionar talla, color y cantidad, además de añadirlo fácilmente al carrito. Incluye etiquetas que destacan características clave, ayudando a los clientes a tomar decisiones rápidas y precisas.",
         },
         {
-          image: "/public/product/product_2.png",
+          image: "/product/product_2.png",
           description:
             "Descubre recomendaciones inteligentes con nuestra sección de productos similares. Utilizamos un sistema de puntos basado en características como categoría, subcategoría, etiquetas y otros atributos para ofrecer sugerencias precisas. Esta funcionalidad ayuda a los clientes a explorar opciones relacionadas que se ajusten a sus intereses.",
         },
@@ -104,7 +104,7 @@ export default function SistemaRopa() {
       shortDescription: "Control total sobre su tienda",
       details: [
         {
-          image: "/public/cart/cart_1.png",
+          image: "/cart/cart_1.png",
           description:
             "Administra fácilmente tus compras desde nuestro carrito de compras intuitivo. Visualiza los productos seleccionados, ajusta cantidades y elimina artículos si es necesario. Además, obtén un resumen claro del total a pagar para una experiencia de compra rápida y sin complicaciones.",
         },
@@ -115,22 +115,22 @@ export default function SistemaRopa() {
       shortDescription: "Seguimiento en tiempo real del inventario",
       details: [
         {
-          image: "/public/checkout/checkout_1.png",
+          image: "/checkout/checkout_1.png",
           description:
             "Facilita el proceso de compra con nuestra sección de creación de pedido. En esta etapa, el cliente completa la información necesaria para realizar su pedido. Permite ingresar datos como el correo electrónico, teléfono y dirección de envío, además de seleccionar el método de envío disponible (estándar, express, etc.)",
         },
         {
-          image: "/public/checkout/checkout_2.png",
+          image: "/checkout/checkout_2.png",
           description:
             "Información Adicional: Espacio para que el cliente deje notas adicionales o indicaciones importantes relacionadas con el pedido (por ejemplo, instrucciones específicas de entrega). Resumen de Pedido: Muestra un desglose claro de los artículos en el carrito, incluyendo cantidades, precios, descuentos aplicados y el costo total a pagar.",
         },
         {
-          image: "/public/checkout/checkout_3.png",
+          image: "/checkout/checkout_3.png",
           description:
             "Permite al cliente revisar los datos ingresados, como información de contacto, método de envío y método de pago, además de visualizar el resumen de su pedido. También incluye la opción de adjuntar un comprobante de pago, asegurando que todo esté correcto antes de finalizar la compra.",
         },
         {
-          image: "/public/checkout/checkout_4.png",
+          image: "/checkout/checkout_4.png",
           description:
             "La última sección muestra un mensaje de confirmación indicando que la orden fue recibida exitosamente, acompañado del número de pedido y los detalles del mismo",
         },
@@ -141,17 +141,17 @@ export default function SistemaRopa() {
       shortDescription: "Personalización completa de su tienda en línea",
       details: [
         {
-          image: "/public/category/category_1.png",
+          image: "/category/category_1.png",
           description:
             "Gestiona tus categorías de productos de forma centralizada. Desde esta sección, puedes visualizar todas las categorías existentes, organizarlas y acceder rápidamente a las opciones para crear o editar.",
         },
         {
-          image: "/public/category/category_2.png",
+          image: "/category/category_2.png",
           description:
             "Añade nuevas categorías a tu sistema de manera sencilla. Completa los campos requeridos en un formulario claro e intuitivo, asegurándote de mantener tu inventario bien organizado.",
         },
         {
-          image: "/public/category/category_3.png",
+          image: "/category/category_3.png",
           description:
             "Actualiza los detalles de tus categorías existentes con facilidad. Este modal te permite realizar cambios rápidos, asegurando que la información de tu sistema esté siempre al día.",
         },
@@ -162,17 +162,17 @@ export default function SistemaRopa() {
       shortDescription: "Personalización completa de su tienda en línea",
       details: [
         {
-          image: "/public/subcategory/subcategory_1.png",
+          image: "/subcategory/subcategory_1.png",
           description:
             "Gestiona tus subcategorías de productos de forma centralizada. Desde esta sección, puedes visualizar todas las categorías existentes, organizarlas y acceder rápidamente a las opciones para crear o editar.",
         },
         {
-          image: "/public/subcategory/subcategory_2.png",
+          image: "/subcategory/subcategory_2.png",
           description:
             "Añade nuevas subcategorías a tu sistema de manera sencilla. Completa los campos requeridos en un formulario claro e intuitivo, asegurándote de mantener tu inventario bien organizado.",
         },
         {
-          image: "/public/subcategory/subcategory_3.png",
+          image: "/subcategory/subcategory_3.png",
           description:
             "Actualiza los detalles de tus subcategorías existentes con facilidad. Este modal te permite realizar cambios rápidos, asegurando que la información de tu sistema esté siempre al día.",
         },
@@ -183,27 +183,27 @@ export default function SistemaRopa() {
       shortDescription: "Personalización completa de su tienda en línea",
       details: [
         {
-          image: "/public/productManagement/product_1.png",
+          image: "/productManagement/product_1.png",
           description:
             "Administra todos los productos de tu inventario desde esta sección. Visualiza, edita y gestiona fácilmente la información de cada artículo, asegurando un control completo sobre tu catálogo.",
         },
         {
-          image: "/public/productManagement/product_2.png",
+          image: "/productManagement/product_2.png",
           description:
             "Añade nuevos productos a tu catálogo con un formulario dividido en dos secciones: Completa campos como nombre, descripción, precio, y etiquetas. Además, puedes agregar combinaciones de tamaños y colores",
         },
         {
-          image: "/public/productManagement/product_3.png",
+          image: "/productManagement/product_3.png",
           description:
             "Asigna categorías y subcategorías y sube imágenes del producto para personalizarlo completamente",
         },
         {
-          image: "/public/productManagement/product_4.png",
+          image: "/productManagement/product_4.png",
           description:
             "Realiza ajustes en los detalles de tus productos ya existentes. Este modal permite editar información general, categorías, combinaciones de tamaños y colores, asegurando que tu catálogo siempre esté actualizado.",
         },
         {
-          image: "/public/productManagement/product_5.png",
+          image: "/productManagement/product_5.png",
           description:
             "Configura ofertas especiales para tus productos fácilmente. Establece un precio promocional y activa la oferta para resaltar productos en descuento, atrayendo más clientes a tu tienda",
         },
@@ -214,22 +214,22 @@ export default function SistemaRopa() {
       shortDescription: "Personalización completa de su tienda en línea",
       details: [
         {
-          image: "/public/order/order_1.png",
+          image: "/order/order_1.png",
           description:
             "Administra y actualiza el estado de los pedidos de forma eficiente. Cambia el estado de un pedido en secuencia, cancélalos si es necesario o realiza ajustes personalizados desde un panel centralizado.",
         },
         {
-          image: "/public/order/order_2.png",
+          image: "/order/order_2.png",
           description:
             "Actualiza el estado de los pedidos rápidamente desde este modal. Selecciona el nuevo estado y guarda los cambios.",
         },
         {
-          image: "/public/order/order_3.png",
+          image: "/order/order_3.png",
           description:
             "Consulta toda la información detallada de un pedido, incluyendo los datos del cliente, artículos solicitados, método de envío, y tarifas. Ideal para revisar y verificar antes de realizar cambios",
         },
         {
-          image: "/public/order/order_4.png",
+          image: "/order/order_4.png",
           description:
             "El sistema notifica automáticamente a los clientes cada vez que el estado de su pedido cambia. Los correos incluyen información actualizada del pedido, brindando transparencia y confianza durante todo el proceso.",
         },
@@ -241,12 +241,12 @@ export default function SistemaRopa() {
 
       details: [
         {
-          image: "/public/stock/stock_1.png",
+          image: "/stock/stock_1.png",
           description:
             "Supervisa y controla los niveles de inventario de todos tus productos. Visualiza en una tabla el stock actual y recibe alertas automáticas cuando el stock sea bajo, asegurando un manejo eficiente del inventario.",
         },
         {
-          image: "/public/stock/stock_2.png",
+          image: "/stock/stock_2.png",
           description:
             "Ajusta el inventario de tus productos fácilmente desde este modal. Establece el stock disponible y configura el stock mínimo para activar las alertas, manteniendo siempre el control sobre la disponibilidad.",
         },
@@ -257,17 +257,17 @@ export default function SistemaRopa() {
       shortDescription: "Personalización completa de su tienda en línea",
       details: [
         {
-          image: "/public/config/config_1.png",
+          image: "/config/config_1.png",
           description:
             "Personalice la apariencia de su tienda con nuestro editor de arrastrar y soltar. Modifique diseños, añada secciones y ajuste elementos sin necesidad de conocimientos técnicos.",
         },
         {
-          image: "/public/config/config_2.png",
+          image: "/config/config_2.png",
           description:
             "Cree páginas personalizadas para promociones, sobre nosotros, políticas y más. Nuestro sistema de gestión de contenidos flexible le permite crear y organizar fácilmente el contenido de su sitio.",
         },
         {
-          image: "/public/config/config_3.png",
+          image: "/config/config_3.png",
           description:
             "Optimice su tienda para motores de búsqueda con nuestras herramientas SEO integradas. Edite metadatos, genere sitemaps automáticamente y cree URLs amigables para mejorar la visibilidad de su tienda.",
         },
@@ -278,7 +278,7 @@ export default function SistemaRopa() {
       shortDescription: "Personalización completa de su tienda en línea",
       details: [
         {
-          image: "/public/about/about_1.png",
+          image: "/about/about_1.png",
           description:
             "Personalice la apariencia de su tienda con nuestro editor de arrastrar y soltar. Modifique diseños, añada secciones y ajuste elementos sin necesidad de conocimientos técnicos.",
         },
@@ -289,7 +289,7 @@ export default function SistemaRopa() {
       shortDescription: "Personalización completa de su tienda en línea",
       details: [
         {
-          image: "/public/dashboard/dashboard_1.png",
+          image: "/dashboard/dashboard_1.png",
           description:
             "Personalice la apariencia de su tienda con nuestro editor de arrastrar y soltar. Modifique diseños, añada secciones y ajuste elementos sin necesidad de conocimientos técnicos.",
         },
