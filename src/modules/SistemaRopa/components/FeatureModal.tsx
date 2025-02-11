@@ -91,7 +91,7 @@ export function FeatureModal({
               alt={`${currentFeature.title} - Detalle ${
                 currentDetailIndex + 1
               }`}
-              className="w-full h-[500px] object-cover rounded-md"
+              className="w-full h-300 sm:h-[500px] object-cover rounded-md"
             />
             {currentFeature.details.length > 1 && (
               <>
