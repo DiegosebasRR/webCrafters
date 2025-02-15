@@ -10,6 +10,7 @@ import {
   CheckCircle,
   Globe,
   Lightbulb,
+  PlayCircle,
   Users,
   Zap,
 } from "lucide-react";
@@ -312,13 +313,14 @@ export default function SistemaRopa() {
             <Button
               onClick={() =>
                 handleRedirectToWhatsApp({
-                  text: `¡Hola! Estoy interesado en comenzar prueba gratuita del sistema de E-commerce.`,
+                  text: `¡Hola! Estoy interesado en agendar una demo del sistema de E-commerce.`,
                 })
               }
               size="lg"
-              className="bg-white text-black hover:bg-gray-200"
+              className="bg-sky-500 text-white hover:bg-sky-400 text-2xl flex items-center justify-center m-auto gap-2 py-6"
             >
-              Comenzar Prueba Gratuita
+              Agendar una demostración
+              <PlayCircle />
             </Button>
           </div>
         </div>
@@ -487,14 +489,16 @@ export default function SistemaRopa() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-4xl font-light mb-6">
-                S/ 500<span className="text-xl">/mes</span>
+              <p className="text-xl font-light mb-6">
+                <span className="text-2xl line-through"> S/ 500</span>/mes
+              </p>
+              <p className="text-xl font-light mb-6">
+                <span className="text-4xl"> S/ 450</span>/mes
               </p>
               <ul className="space-y-2 mb-6">
                 <p className="text-sm mb-2">Pago mensualmente</p>
-                <li>Acceso completo</li>
-                <li>Soporte básico</li>
-                <li>Actualizaciones incluidas</li>
+                <p className="text-sm mb-2">Soporte técnico</p>
+                <p className="text-sm mb-2">Hosting gratis por un año</p>
               </ul>
               <Button
                 onClick={() =>
@@ -502,7 +506,7 @@ export default function SistemaRopa() {
                     text: `¡Hola! Estoy interesado en comenzar con el plan mensual del sistema de E-commerce.`,
                   })
                 }
-                className="w-full"
+                className="w-full bg-green-500 hover:bg-green-400"
               >
                 Seleccionar Plan
               </Button>
@@ -515,14 +519,20 @@ export default function SistemaRopa() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-4xl font-light mb-6">
-                S/ 400<span className="text-xl">/mes</span>
+              <p className="text-xl font-light mb-6">
+                <span className="text-2xl line-through"> S/ 400</span>/mes
+              </p>
+              <p className="text-xl font-light mb-6">
+                <span className="text-4xl"> S/ 350</span>/mes
               </p>
               <p className="text-sm mb-2">Pago semestralmente</p>
               <ul className="space-y-2 mb-6">
-                <li>Acceso completo</li>
-                <li>Soporte prioritario</li>
-                <li>S/100 de descuento</li>
+                <p className="text-sm mb-2">
+                  Descuento por plan semestralmente
+                </p>
+                <p className="text-sm mb-2">Pago mensualmente</p>
+                <p className="text-sm mb-2">Soporte técnico</p>
+                <p className="text-sm mb-2">Hosting gratis por un año</p>
               </ul>
               <Button
                 onClick={() =>
@@ -530,7 +540,7 @@ export default function SistemaRopa() {
                     text: `¡Hola! Estoy interesado en comenzar con el plan semestral del sistema de E-commerce.`,
                   })
                 }
-                className="w-full"
+                className="w-full bg-green-500 hover:bg-green-400"
               >
                 Seleccionar Plan
               </Button>
@@ -541,14 +551,18 @@ export default function SistemaRopa() {
               <CardTitle className="text-2xl font-light">Plan Anual</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-4xl font-light mb-6">
-                S/ 350<span className="text-xl">/mes</span>
+              <p className="text-xl font-light mb-6">
+                <span className="text-2xl line-through"> S/ 350</span>/mes
+              </p>
+              <p className="text-xl font-light mb-6">
+                <span className="text-4xl"> S/ 300</span>/mes
               </p>
               <p className="text-sm mb-2">Pago anualmente</p>
               <ul className="space-y-2 mb-6">
-                <li>Acceso completo</li>
-                <li>Soporte 24/7</li>
-                <li>S/150 de descuento</li>
+                <p className="text-sm mb-2">Descuento por plan Anual</p>
+                <p className="text-sm mb-2">Pago mensualmente</p>
+                <p className="text-sm mb-2">Soporte técnico</p>
+                <p className="text-sm mb-2">Hosting gratis por un año</p>
               </ul>
               <Button
                 onClick={() =>
@@ -556,7 +570,7 @@ export default function SistemaRopa() {
                     text: `¡Hola! Estoy interesado en comenzar con el plan anual del sistema de E-commerce.`,
                   })
                 }
-                className="w-full"
+                className="w-full bg-green-500 hover:bg-green-400"
               >
                 Seleccionar Plan
               </Button>
@@ -573,9 +587,8 @@ export default function SistemaRopa() {
               <p className="text-sm mb-2">Pago único</p>
               <ul className="space-y-2 mb-6">
                 <li>Acceso de por vida</li>
-                <li>Actualizaciones ilimitadas</li>
               </ul>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm text-gray-600 space-y-2 mb-6">
                 Soporte técnico y pago al servidor: S/ 200 adicionales.
               </p>
 
@@ -585,7 +598,7 @@ export default function SistemaRopa() {
                     text: `¡Hola! Estoy interesado en obtener el sistema de E-commerce de por vida.`,
                   })
                 }
-                className="w-full bg-white text-black hover:bg-gray-200"
+                className="w-full bg-green-500 hover:bg-green-400"
               >
                 Comprar Ahora
               </Button>
@@ -598,8 +611,8 @@ export default function SistemaRopa() {
         <div className="max-w-3xl mx-auto text-center px-4">
           <h2 className="text-3xl font-light mb-6">Prueba Gratuita</h2>
           <p className="text-xl mb-8">
-            Experimente el poder de nuestro sistema con una prueba gratuita de
-            14 días. Sin compromisos, sin tarjeta de crédito requerida.
+            Experimente el poder de nuestro sistema con una prueba gratuita de 5
+            días. Sin compromisos, sin tarjeta de crédito requerida.
           </p>
           <Button
             onClick={() =>
@@ -622,7 +635,7 @@ export default function SistemaRopa() {
           {[
             {
               q: "¿Cómo funciona la prueba gratuita?",
-              a: "Nuestra prueba gratuita le da acceso completo a todas las funciones del sistema durante 14 días, sin compromiso ni tarjeta de crédito requerida.",
+              a: "Nuestra prueba gratuita le da acceso completo a todas las funciones del sistema durante 5 días, sin compromiso ni tarjeta de crédito requerida.",
             },
             {
               q: "¿Puedo cambiar de plan en cualquier momento?",

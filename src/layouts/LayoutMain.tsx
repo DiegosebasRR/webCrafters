@@ -30,6 +30,12 @@ const LayoutMain = () => {
 
   return (
     <div>
+      {" "}
+      <RouterLink to="/sistemaropa">
+        <p className="bg-red-500 px-10 text-white text-3xl font-bold text-center py-2">
+          🔥 ¡Descuentos en nuestro sistema E-commerce todo febrero! 🚀
+        </p>
+      </RouterLink>
       <header className="bg-white dark:bg-background px-10 sticky top-0 w-full border-b-2 z-50">
         <nav className="flex h-32 lg:h-24 text-lg flex-col lg:justify-between lg:flex-row items-center justify-evenly">
           <p className="text-4xl font-bold hover:text-primary transition-all duration-300">
