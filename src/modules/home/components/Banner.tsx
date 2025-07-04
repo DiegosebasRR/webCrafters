@@ -13,7 +13,7 @@ const Banner = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          Atrae a más clientes con una presencia web impactante
+          Hola
         </motion.h1>
 
         {/* Animación del párrafo */}
